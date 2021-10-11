@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <link rel="stylesheet" href="https://pagecdn.io/lib/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">    
+    
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate">Kênh Người Bán</li>
+                        <li class="header__navbar-item header__navbar-item--separate">Trở Thành Người Bán Shopee</li>
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--qr">
+                            Tải Ứng Dụng
+                            <div class="header__navbar-qr">
+                                <div class="header__qr">
+                                    <img src="./assets/img/QR_code.png" alt="QR code" class="header__qr-img">
+                                    <div class="header__qr-apps">
+                                        <a href=""><img class="header__qr-dow-img" src="./assets/img/appstore.png" alt=""></a>
+                                        <a href=""><img class="header__qr-dow-img" src="./assets/img/googleplay.png" alt=""></a>
+                                        <a href=""><img class="header__qr-dow-img" src="./assets/img/appgallery.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--none">Kết Nối</span>
+                            <a href="" class="header__navbar--icon-link">
+                                <i class="header__navbar--icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar--icon-link">
+                                <i class="header__navbar--icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-bells">
+                            <i class="header__navbar--icon fas fa-bell "></i>
+                            Thông Báo
+                            
+                            <div class="header__navbar-bell">
+                                <div class="header__navbar-tamgiac"></div>
+                                <div class="header__navbar-bell-hover">
+                                    <img src="./assets/img/bellhovericon.png" alt="">
+                                    <p>Đăng nhập để xem thông báo</p>
+                                    <button class="header__navbar-bell-hover-signup header__navbar-bell-hover-login">
+                                        Đăng Ký
+                                    </button>
+                                    <button class="header__navbar-bell-hover-signin header__navbar-bell-hover-login">
+                                        Đăng Nhập
+                                    </button>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <i class="header__navbar--icon far fa-question-circle"></i>
+                            Hỗ Trợ
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"><b>Đăng Ký</b></li>
+                        <li class="header__navbar-item header__navbar-item--strong"><b>Đăng Nhập</b></li>
+                    </ul>
+                </nav>
+                <div class="header__menu">
+                    <div class="header__menu-logo">
+                        <img src="./assets/img/shopeeicon.png" alt="">
+                    </div>
+                    <div class="header__menu-search">
+                        <div class="header__menu-search--main">
+                            <div class="header__menu-search--input">
+                                <form action="">
+                                    <input type="text" placeholder="Mua 1 tặng 1- Ưa đãi 50%">
+                                </form>
+                            </div>
+                            <button>
+                                <i class="fas fa-search header__menu-search--icon"></i>
+                            </button>
+                        </div>    
+                        <div class="header__menu-search--item">
+                            <a href="">Váy</a>
+                            <a href="">Bông Tẩy Trang</a>
+                            <a href="">Balo</a>
+                            <a href="">Dép Nữ</a>
+                            <a href="">Quần</a>
+                            <a href="">Dép</a>
+                            <a href="">Son</a>
+                            <a href="">Áo Phông</a>
+                        </div>
+                    </div>
+                    <div class="header__menu-product">
+                        <i class="fas fa-shopping-cart header__menu-product--icon"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="container_homepage">
+                <div class="grid">
+                    <div class="container_tranler">
+                        <div class="container_tranler-left">
+                            <div class="slider-img">
+                                <img src="/assets/img/tranler1.3.png" id="lastClone">
+                                <img src="/assets/img/tranler1.jfif">
+                                <img src="/assets/img/tranler1.1.png">
+                                <img src="/assets/img/tranler1.2.png">
+                                <img src="/assets/img/tranler1.3.png">
+                                <img src="/assets/img/tranler1.jfif" id="firstClone"> 
+                            </div>
+                            <button class="btn prevBtn" id="left" ><i class="fas fa-chevron-left arrow2"></i></button>
+                            <button class="btn nextBtn" id="right" ><i class="fas fa-chevron-right arrow2"></i></button>
+                            <script src="main.js"></script>
+                            
+                        
+                        </div>
+                        <div class="container_tranler-right">
+                            <img src="./assets/img/tranler2.png" alt="">
+                            <img src="./assets/img/tranler3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="container_content">
+                        <div class="container_content-item">
+                            <img src="./assets/img/content1.png" alt="">
+                            <p>Ở Nhà Không Khó</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content2.png" alt="">
+                            <p>Tech Zone - SIêu Thị Điện Tử</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content3.png" alt="">
+                            <p>Gì Cũng Rẻ - Từ 1k</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content4.png" alt="">
+                            <p>Hoàn Xu 20% - Đơn Từ 0Đ</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content5.png" alt="">
+                            <p>Nạp Thẻ, Dịch Vụ & Phim</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content6.gif" alt="">
+                            <p>Shopee Số Gì Đây</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content7.png" alt="">
+                            <p>Freeship Xtra</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content8.png" alt="">
+                            <p>Hàng Hiệu-50% - Voucher 500k</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content9.png" alt="">
+                            <p>Hàng Quốc Tế</p>
+                        </div>
+                        <div class="container_content-item">
+                            <img src="./assets/img/content10.png" alt="">
+                            <p>Shopee Premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container_event">
+                <div class="grid">
+                    <img src="./assets/img/event1.png" alt="" class="imgevent1">
+                    <div class="container_event-sale">
+                        <div class="imgevent2"><img src="./assets/img/event2.png" alt="" ></div>
+                        <div class="container_event-product">
+                            <div class="container_event-product-items">
+                                <div class="container_event-product-items-text">
+                                    <h2>SẢN PHẨM BÁN CHẠY</h2>
+                                    <a href=""><h3>Xem Thêm
+                                        <i class="fas fa-arrow-right arrow"></i>
+                                    </h3></a>
+                                </div>
+                                <div class="container_event-product-itemss">
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event3.jfif" alt="" class="imgevent">
+                                        <h2>9000</h2>
+                                        <div class="sales">
+                                            <h2>70%</h2>
+                                            <p>GIẢM</p>
+                                        </div>
+                                    </div>
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event4.jfif" alt="" class="imgevent">
+                                        <h2>9000</h2>
+                                        <div class="sales">
+                                            <h2>70%</h2>
+                                            <p>GIẢM</p>
+                                        </div>
+                                    </div>
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event5.jfif" alt="" class="imgevent">
+                                        <h2>9000</h2>
+                                        <div class="sales">
+                                            <h2>70%</h2>
+                                            <p>GIẢM</p>
+                                        </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="container_event-product-items">
+                                <div class="container_event-product-items-text">
+                                    <h2>THƯƠNG HIỆU NỔI BẬT</h2>
+                                    <a href=""><h3>Xem Thêm
+                                        <i class="fas fa-arrow-right arrow"></i>
+                                    </h3></a>
+                                </div>
+                                <div class="container_event-product-itemss">
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event6.jfif" alt="" class="imgevent">
+                                        <div class="imgevents"><img src="./assets/img/event6s.jfif" alt=""></div>
+                                        <h2>GIẢM -30%</h2>
+                                    </div>
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event7.jfif" alt="" class="imgevent">
+                                        <div class="imgevents"><img src="./assets/img/event7s.jfif" alt=""></div>
+                                        <h2>GIẢM -50%</h2>
+                                    </div>
+                                    <div class="container_event-product-item">
+                                        <img src="./assets/img/event8.jfif" alt="" class="imgevent">
+                                        <div class="imgevents"><img src="./assets/img/event8s.jfif" alt=""></div>
+                                        <h2>GIẢM -30%</h2>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="container_list-title"><p>DANH MỤC</p></div>
+                <div class="container_list">
+                        <div class="container_list-item">
+                            <img src="./assets/img/list1.png" alt="">
+                            <h3>Thời Trang Nam</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list2.png" alt="">
+                            <h3>Điện Thoại & Phụ Kiện</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list3.png" alt="">
+                            <h3>Thiết Bị Điện Tử</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list4.png" alt="">
+                            <h3>Máy Tính & Laptop</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list5.png" alt="">
+                            <h3>Máy Ảnh & Máy Quay Phim</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list6.png" alt="">
+                            <h3>Đồng Hồ</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list7.png" alt="">
+                            <h3>Giày Dép Nam</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list8.png" alt="">
+                            <h3>Thiết Bị Điện Gia Dụng</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list9.png" alt="">
+                            <h3>Thể Thao & Du Lịch</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list10.png" alt="">
+                            <h3>Ô Tô & Xe Máy & Xe Đạp</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list11.png" alt="">
+                            <h3>Thời Trang Nữ</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list12.png" alt="">
+                            <h3>Mẹ & Bé</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list13.png" alt="">
+                            <h3>Nhà Cửa & Đời Sống</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list14.png" alt="">
+                            <h3>Sắc Đẹp</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list15.png" alt="">
+                            <h3>Sức Khỏe</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list16.png" alt="">
+                            <h3>Giày Dép Nữ</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list17.png" alt="">
+                            <h3>Túi Ví Nữ</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list18.png" alt="">
+                            <h3>Phụ Kiện & Trang Sức Nữ</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list19.png" alt="">
+                            <h3>Bách Hóa Online</h3>
+                        </div>
+                        <div class="container_list-item">
+                            <img src="./assets/img/list20.png" alt="">
+                            <h3>Nhà Sách Online</h3>
+                        </div>
+                    <div class="container_list-arrow">
+                        <i class="fas fa-chevron-right arrow2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
