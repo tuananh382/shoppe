@@ -618,3 +618,43 @@
     animation: zoom ease 0.15s ;
     transform: scale(1.8);
  }
+
+ .container_fastsale {
+    background-color: white;
+    height: 300px;
+    width: 1200px;
+    margin: auto;
+ }
+
+ #container_fastsale_content {
+    border-bottom: 2px solid rgba(0,0,0,.05);
+    height: 60px;
+    width: 1200px;
+    font-size: 20px;
+    justify-content:  center;
+    margin-top: 30px;
+ }
+
+ #container_fastsale_content p{
+    padding: 22px;
+    margin: 0px;
+ }
+
+ #container_list_fastsale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #EE4E2E;
+ }
+
+ #slide_style {
+    width: 160px;
+ }
+
+ #silde_div {
+     width: 160px;
+     height: 10px;
+     background-color: red;
+     z-index: 1;
+     display: inline;
+ }
